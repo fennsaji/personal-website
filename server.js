@@ -1,3 +1,8 @@
+const express = require('express');
+const path = require('path');
+const cors = require('cors');
+const bodyParser = require('body-parser');
+
 const publicPath = path.join(__dirname, './public');
 
 // Port Number
@@ -18,6 +23,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
-server.listen(port, ()=> {
+app.listen(port, ()=> {
   console.log(`Connected to port ${port}`);
 });
