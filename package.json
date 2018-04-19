@@ -1,0 +1,24 @@
+{
+  "name": "pigeonsocialapp",
+  "version": "1.0.0",
+  "description": "chating app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.3.0"
+  },
+  "author": "Fenn Saji",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.5"
+  }
+}
